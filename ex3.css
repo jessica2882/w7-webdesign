@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background:linear-gradient(90deg,#e2e2e4,#c9d6fc);
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+img {
+    width: 50px;
+    
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+form {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 53px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    outline: none;
+    
+}
+.google-button img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.google-button span {
+    color: blue;
+    font-size: 16px;
+}
+.row {
+    margin-bottom: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    outline: none;
+
+}
+
+input:focus {
+    border: 1px solid #7f56d9;
+}
+
+.submit-button {
+    margin-top: 10px;
+    width: 405px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: #7f56d9;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+
+}
+
+.submit-button:hover {
+    background-color: #6842c2;
+}
+
+.sign-up {
+    margin-top: 1rem;
+}
+
+.sign-up p {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.sign-up a {
+    color: #7f56d9;
+    text-decoration: none;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+}

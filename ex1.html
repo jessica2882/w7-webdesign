@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="stlye1.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class = "header">Create Account</h1>
+    <form>
+      <div class="row">
+        <div class="column">
+          <label for="firstName">First name *</label>
+          <input type="text" id="firstName" placeholder="Enter your first name">
+        </div>
+        <div class="column">
+          <label for="lastName">Last name *</label>
+          <input type="text" id="lastName" placeholder="Enter your last name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <label for="email">Email *</label>
+          <input type="email" id="email" placeholder="Enter your Email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <label for="password">Password *</label>
+          <input type="password" id="password" placeholder="Enter your Password">
+        </div>
+        <div class="column">
+          <label for="comfirmmpassword">Comfirm Password *</label>
+          <input type="comfirmpassword" id="comfirmpassword" placeholder="Confirm Your Password">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <label>Gender:</label>
+          <div class="radio-group">
+           <input type="radio" id = "male" naem = "male" value =  "male">
+           <label for="male">Male</label>
+           <input type="radio" id = "famele" naem = "famele" value =  "famele">
+           <label for="famele">Female</label>
+          </div>
+        </div>
+        <div class="column">
+          <label>Hobbies:</label>
+          <div class="checkbox-group">
+            <input type="checkbox" id="music" name="music" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="sport" name="sport" value="sport">
+            <label for="sport"> Sport</label>
+            <input type="checkbox" id="travel" name="travel" value="travel">
+            <label for="travel">Travel</label>
+            <input type="checkbox" id ="movie" name = "movie" value ="movie">
+            <label for="movie">Movie</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <label for="incomeSource">Source of Income:</label>
+          <select id="incomeSource">
+            <option value="Employed">Employed</option>
+            <option value="Self-Employed">Self-Employed</option>
+            <option value="Unemployed">Unemployed</option>
+          </select>
+        </div>
+        <div class="income">
+          <div>
+            <label for="income">Income:</label>
+            <input type="range" id="income" min="0" max="10000" step="1000">
+          </div>
+          <div class="income-column">
+              <span>20K</span>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <label for="profilePicture">Upload Profile Picture:</label>
+          <input type="file" id="profilePicture">
+        </div>
+        <div class="column">
+          <label for="age">Age:</label>
+          <input type="number" id="age" value="18">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+        <label for="bio">Bio:</label>
+        <textarea id="bio" rows="4" placeholder="Write about yourself"></textarea>
+      </div>
+    </div>
+    </form>
+    <div class="footer">
+      <div class="button-content">
+      <button type="submit" class="submit-button">Create</button>
+  </div>
+</div>
+  </div>
+</body>
+</html>
